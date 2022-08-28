@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/js/**/*.js",
-    "lint:write": "eslint --debug src/js/**/*.js --fix",
+    "lint": "eslint src/**/*.js",
+    "lint:write": "eslint --debug src/**/*.js --fix",
     "prepare": "husky install",
     "commit": "npm run prettier & npm run lint"
   },
@@ -40,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.21.0",
+    "eslint": "^8.22.0",
     "eslint-plugin-react": "^7.30.1",
     "husky": "^8.0.1"
   }
