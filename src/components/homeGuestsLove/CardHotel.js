@@ -1,5 +1,4 @@
 import ImageHotel from "./ImageHotel";
-import InfoHotel from "./InfoHotel";
 import LinkHotel from "./LinkHotel";
 import data from "./dataHotel";
 
@@ -11,7 +10,9 @@ function CardHotel() {
             <div className="rectangle" >
                 <ImageHotel imageUrl={data.imageUrl}/>
                 <LinkHotel name={data.name}/>
-                <InfoHotel city={data.city} country={data.country}/>
+                <div className="subtitle-caption">
+                    {data.city}, {data.country}
+                </div>
             </div>
         </div>
     )
