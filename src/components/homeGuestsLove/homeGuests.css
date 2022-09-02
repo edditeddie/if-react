@@ -1,0 +1,58 @@
+@import url("../../fonts/fonts.css");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.homes-guests{
+  display: block;
+  padding: 120px 0 0;
+  background-color:#EAF0F9;
+}
+
+.heading{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17em;
+  text-align: center;
+  color: #383838;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 105px 100px 70px;
+}
+
+.rectangle{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 295px;
+  min-height: 435px;
+  margin: 0 4px 50px;
+}
+
+.subtitle-link{
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17em;
+  color: #3077C6;
+  margin-top: 24px;
+}
+
+.subtitle-caption {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17em;
+  color: #BFBFBF;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
