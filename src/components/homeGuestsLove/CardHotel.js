@@ -2,7 +2,6 @@ import ImageHotel from "./ImageHotel";
 import LinkHotel from "./LinkHotel";
 import data from "./dataHotel";
 
-
 function CardHotel() {
   return (
     data.map((data) =>

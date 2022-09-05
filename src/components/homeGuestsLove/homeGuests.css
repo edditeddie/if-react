@@ -5,13 +5,13 @@
   box-sizing: border-box;
 }
 
-.homes-guests{
+.homes-guests {
   display: block;
   padding: 120px 0 0;
   background-color:#EAF0F9;
 }
 
-.heading{
+.heading {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 40px;
@@ -20,7 +20,7 @@
   color: #383838;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,7 +28,7 @@
   padding: 105px 100px 70px;
 }
 
-.rectangle{
+.rectangle {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -37,7 +37,7 @@
   margin: 0 4px 50px;
 }
 
-.subtitle-link{
+.subtitle-link {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-weight: 400;
@@ -56,3 +56,4 @@
   margin-top: 24px;
   margin-bottom: 0;
 }
+
