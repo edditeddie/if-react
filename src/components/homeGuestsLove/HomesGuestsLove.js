@@ -1,7 +1,4 @@
 import CardHotel from "./CardHotel";
-import './homeGuests.css';
-
-
 
 function HomesGuestsLove() {
     return (

@@ -1,7 +1,8 @@
+import './fonts/fonts.css';
+import './components/homeGuestsLove/style.css'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from "./App";
-import './fonts/fonts.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
